@@ -24,7 +24,7 @@ global.ram_usage = 60000000000 // 600 MB in this example [Ram Limiter (if your s
 global.cache_used = 1000000000 // 1 GB in this example [Cached Limiter (if your server ram is 1GB put 900MB in bytes, later the server will auto clear Cache before using 1GB Cached)] // work on VPS
 /*============= WAKTU =============*/
 global.owner = [
-	['628xxxxxxxxxx', 'YourName', true]
+	['6281936287658', 'Oktaviaa', true]
 	// [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.cookie = {
@@ -34,16 +34,16 @@ global.cookie = {
 	},
 	cai: "" // join channel buat cara dapatin token ce ai
 }
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
-global.self = true // nganu
-global.packname = ''
-global.author = ''
-global.wm = ''
+global.mods = ['6285198346104'] // Want some help?
+global.prems = ['6281936287658'] // Premium user has unlimited limit
+global.self = false // nganu
+global.packname = 'HazelMD'
+global.author = 'HazelMD'
+global.wm = 'HazelMD Created By Okta'
 global.no_wallet = ''
-global.nomorown = ""
-global.nomorbot = "" // nomer buat bot (login via kode)
-global.xznkey = '' // chat atmin buat dapetin apikeynya skizo.tech/pricing
+global.nomorown = "6281936287658"
+global.nomorbot = "6285198346104" // nomer buat bot (login via kode)
+global.xznkey = 'oktaviazynx' // chat atmin buat dapetin apikeynya skizo.tech/pricing
 global.profil = fs.readFileSync("./src/profil.jpg")
 global.anunya = fs.readFileSync("./src/anunya.jpg")
 global.log = function log() {
